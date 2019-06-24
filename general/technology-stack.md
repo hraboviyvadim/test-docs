@@ -24,5 +24,12 @@ We are using [Blade](https://laravel.com/docs/master/blade) template engine for 
 
 ### Java Script
 
-Currently, we are using ES6 standart. For handling legacy browsers we have configured Babel compiler. we also have a customized ESLint to stick to the same coding style \(extended from [eslint:recommended](https://eslint.org/docs/rules/) config + few own rules\). It can be checked in .eslintrc file
+Currently, we are using ES6 standart. For handling legacy browsers we have configured Babel compiler. we also have a customized ESLint to stick to the same coding style \(extended from [eslint:recommended](https://eslint.org/docs/rules/) config + few own rules\). It can be checked in .eslintrc file.
+
+All namings in JS are in camelCase style:
+
+```text
+const someVariable = 'foo';
+const getOrderedList = (arr) => {};
+```
 
