@@ -1,4 +1,4 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [MacPaw Site 2.0](README.md)
 
